@@ -1,0 +1,10 @@
+extends layout 
+
+block content
+  h1 No se inició sesión 
+  p #{message}
+  //- .image hace referencia a un div
+  .image 
+    img(src='images/thisisnotfine.png')
+  .links 
+    a(href='/') Inicio

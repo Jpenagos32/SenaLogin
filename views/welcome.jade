@@ -1,0 +1,9 @@
+extends layout 
+
+block content 
+  h1 Bienvenido al sistema de login
+  .image
+    img(src='images/welcome.png')
+  .links
+    a(href='/login?user=jpenagos&password=abc123') Login Correcto
+    a(href='/login') Login Incorrecto

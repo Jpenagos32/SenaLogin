@@ -1,0 +1,10 @@
+extends layout 
+
+block content 
+  h1 Se cerró la sesión 
+  .image 
+    img(src='images/see-ya-later.jpg')
+  .links
+    a(href='/login?user=jpenagos&password=abc123') Login Correcto
+    a(href='/login') Login incorrecto
+    a(href='/') Inicio

@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  h1= title
+  p Bienvenido #{user}
+  .image
+    img(src='images/this-is-fine.jpg')
+  .links
+    a(href='/logout') Cerrar Sesión
