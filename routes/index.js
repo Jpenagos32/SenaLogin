@@ -10,7 +10,7 @@ router.get('/', function(req, res, next) {
   }
 
   if(user === loginData.usr && password === loginData.pass){
-    return res.render('logged', { title: 'Usted Ha Iniciado Sesión', user });
+    return res.render('logged', { title: 'Usted Ha Iniciado Sesión' });
   }
   if(!user || !password){
     return res.render('notLogged', {title: 'Error', message: 'Debe proporcionar usuario y contraseña'})
