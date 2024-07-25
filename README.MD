@@ -7,7 +7,7 @@ El proyecto se abrirá en [Localhost](http://localhost:3000)
 las credenciales a usar para el login se pasaran por `query` de la siguiente manera
 
 ```
-http://localhost:3000?user=jpenagos&password=abc123
+http://localhost:3000/login?user=jpenagos&password=abc123
 ```
 
 Al ingresar alguna de las credenciales de manera incorrecta redireccionará a otra página, en caso de no pasar ninguna de las credenciales, el mensaje de la página cambiará
